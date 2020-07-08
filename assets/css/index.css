@@ -221,6 +221,11 @@ body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
     width: 75%;
   }
 }
+@media (max-width: 768px) {
+  body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
+    height: 250px;
+  }
+}
 body .lp-main .lp-section.lp-features {
   margin: 17.5rem 0 0;
   justify-content: center;

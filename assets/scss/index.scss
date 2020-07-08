@@ -191,6 +191,9 @@ body {
                         @media (max-width: 1400px) {
                             width: 75%;
                         }
+                        @media (max-width: 768px) {
+                            height: 250px;
+                        }
                     }
                 }
             }
