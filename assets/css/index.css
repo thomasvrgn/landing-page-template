@@ -8,9 +8,18 @@ body .lp-main .lp-header {
 }
 body .lp-main .lp-header .lp-navbar {
   position: relative;
+  height: 75px;
+  display: flex;
+  flex-flow: row wrap;
+}
+@media (max-width: 768px) {
+  body .lp-main .lp-header .lp-navbar {
+    height: unset;
+  }
 }
 body .lp-main .lp-header .lp-navbar .lp-navbar-container {
   padding: 1rem 0;
+  align-items: center;
   display: flex;
   flex-flow: row wrap;
   margin: 0 auto;
@@ -55,7 +64,7 @@ body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start spa
 body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start span.lp-navbar-button {
   display: none;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: white;
 }
 @media (max-width: 768px) {
@@ -67,6 +76,9 @@ body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start spa
 body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end {
   flex-basis: 75%;
   justify-content: flex-end;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end.lp-navbar-opened {
+  display: flex;
 }
 @media (max-width: 768px) {
   body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end {
