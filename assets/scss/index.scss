@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(240, 240, 240);
     .lp-main {
         .lp-header {
             background-image: linear-gradient(to right top, #8e4296, #7f3e87, #713978, #633569, #56305b);
@@ -99,6 +100,33 @@ body {
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+            .lp-introduction {
+                display: flex;
+                flex-flow: row wrap;
+                width: 50%;
+                margin: 0 auto;
+                padding: 10rem 0 20rem;
+                .lp-container {
+                    display: flex;
+                    flex: 1 0;
+                    justify-content: center;
+                    align-items: center;
+                    .lp-text {
+                        width: 50%;
+                        text-align: center;
+                        .lp-title {
+                            text-transform: uppercase;
+                            color: white;
+                            margin: 0 0 1rem;
+                        }
+                        .lp-paragraph {
+                            color: white;
+                            opacity: 0.8;
+                            font-weight: 300;
                         }
                     }
                 }
