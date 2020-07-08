@@ -28,17 +28,36 @@ body {
                             justify-content: center !important;
                         }
                         &.lp-navbar-start {
+                            flex-flow: row wrap;
                             flex-basis: 25%;
-                            @media (max-width: 768px) {
-                                margin: 0 0 1rem 0;
-                            }
-                            .lp-navbar-brand {
-                                color: white;
+                            span {
+                                @media (max-width: 768px) {
+                                    display: flex;
+                                    flex: 1 0 calc(100% / 2);
+                                    align-items: center;
+                                }
+                                &.lp-navbar-brand {
+                                    color: white;
+                                    font-weight: 600;
+                                }
+                                &.lp-navbar-button {
+                                    display: none;
+                                    cursor: pointer;
+                                    font-size: 2rem;
+                                    color: white;
+                                    @media (max-width: 768px) {
+                                        display: flex;
+                                        justify-content: flex-end;
+                                    }
+                                }
                             }
                         }
                         &.lp-navbar-end {
                             flex-basis: 75%;
                             justify-content: flex-end;
+                            @media (max-width: 768px) {
+                                display: none;
+                            }
                             .lp-navbar-menu {
                                 display: flex;
                                 flex-flow: row wrap;
