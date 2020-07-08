@@ -13,12 +13,25 @@ body {
                     flex-flow: row wrap;
                     margin: 0 auto;
                     width: 50%;
+                    @media (max-width: 1200px) {
+                        width: 75%;
+                    }
+                    @media (max-width: 960px) {
+                        width: 95%;
+                    }
                     div {
                         display: flex;
                         flex: 1 0;
                         align-items: center;
+                        @media (max-width: 768px) {
+                            flex-basis: 100% !important;
+                            justify-content: center !important;
+                        }
                         &.lp-navbar-start {
                             flex-basis: 25%;
+                            @media (max-width: 768px) {
+                                margin: 0 0 1rem 0;
+                            }
                             .lp-navbar-brand {
                                 color: white;
                             }
@@ -29,6 +42,9 @@ body {
                             .lp-navbar-menu {
                                 display: flex;
                                 flex-flow: row wrap;
+                                @media (max-width: 768px) {
+                                    width: 50%;
+                                }
                                 .lp-navbar-item {
                                     display: flex;
                                     flex: 1 0;
@@ -36,6 +52,14 @@ body {
                                     padding: 0.75rem 2rem;
                                     border-radius: 5px;
                                     cursor: pointer;
+                                    @media (max-width: 768px) {
+                                        flex-basis: 100%;
+                                        justify-content: center;
+                                        margin: 0;
+                                        list-style-type: none;
+                                        padding: 1rem 0;
+                                        width: 100%;
+                                    }
                                     &:hover {
                                         background-color: rgba(255, 255, 255, 0.075);
                                     }
