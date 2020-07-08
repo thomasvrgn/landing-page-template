@@ -128,6 +128,11 @@ body .lp-main .lp-header .lp-introduction {
   margin: 0 auto;
   padding: 10rem 0 20rem;
 }
+@media (max-width: 768px) {
+  body .lp-main .lp-header .lp-introduction {
+    width: 75%;
+  }
+}
 body .lp-main .lp-header .lp-introduction .lp-container {
   display: flex;
   flex: 1 0;
@@ -137,6 +142,16 @@ body .lp-main .lp-header .lp-introduction .lp-container {
 body .lp-main .lp-header .lp-introduction .lp-container .lp-text {
   width: 50%;
   text-align: center;
+}
+@media (max-width: 1400px) {
+  body .lp-main .lp-header .lp-introduction .lp-container .lp-text {
+    width: 75%;
+  }
+}
+@media (max-width: 960px) {
+  body .lp-main .lp-header .lp-introduction .lp-container .lp-text {
+    width: 100%;
+  }
 }
 body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-title {
   text-transform: uppercase;

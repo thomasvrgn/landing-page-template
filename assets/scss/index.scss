@@ -110,6 +110,9 @@ body {
                 width: 50%;
                 margin: 0 auto;
                 padding: 10rem 0 20rem;
+                @media (max-width: 768px) {
+                    width: 75%;
+                }
                 .lp-container {
                     display: flex;
                     flex: 1 0;
@@ -118,6 +121,12 @@ body {
                     .lp-text {
                         width: 50%;
                         text-align: center;
+                        @media (max-width: 1400px) {
+                            width: 75%;
+                        }
+                        @media (max-width: 960px) {
+                            width: 100%;
+                        }
                         .lp-title {
                             text-transform: uppercase;
                             color: white;
