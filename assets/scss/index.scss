@@ -26,6 +26,9 @@ body {
                     @media (max-width: 960px) {
                         width: 95%;
                     }
+                    @media (max-width: 768px) {
+                        padding: 1rem 0;
+                    }
                     div {
                         display: flex;
                         flex: 1 0;
@@ -67,6 +70,7 @@ body {
                             }
                             @media (max-width: 768px) {
                                 display: none;
+                                margin: 1rem 0 0;
                             }
                             .lp-navbar-menu {
                                 display: flex;
@@ -88,6 +92,7 @@ body {
                                         list-style-type: none;
                                         padding: 1rem 0;
                                         width: 100%;
+                                        height: unset;
                                     }
                                     &:hover {
                                         background-color: rgba(255, 255, 255, 0.075);
