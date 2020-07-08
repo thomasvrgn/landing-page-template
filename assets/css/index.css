@@ -148,6 +148,28 @@ body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-paragraph {
   opacity: 0.8;
   font-weight: 300;
 }
+body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2rem 0;
+}
+body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp-button {
+  display: flex;
+  flex: 1 0;
+  justify-content: center;
+  border-radius: 50px;
+  font-weight: 300;
+  padding: 1rem 0;
+  margin: 0 1rem;
+  background-color: #633569;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.1s ease;
+  flex-basis: calc(50% - 2rem);
+}
+body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp-button:hover {
+  background-color: #56305b;
+}
 
 * {
   margin: 0;
