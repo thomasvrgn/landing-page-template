@@ -163,6 +163,21 @@ body {
                 }
             }
         }
+        .lp-product {
+            display: flex;
+            flex-flow: row wrap;
+            position: relative;
+            z-index: 10;
+            .lp-container {
+                display: flex;
+                flex: 1 0;
+                justify-content: center;
+                align-items: center;
+                .lp-product-image {
+                    position: absolute;
+                }
+            }
+        }
     }
 }
 

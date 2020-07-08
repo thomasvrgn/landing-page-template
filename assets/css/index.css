@@ -185,6 +185,21 @@ body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp
 body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp-button:hover {
   background-color: #56305b;
 }
+body .lp-main .lp-product {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  z-index: 10;
+}
+body .lp-main .lp-product .lp-container {
+  display: flex;
+  flex: 1 0;
+  justify-content: center;
+  align-items: center;
+}
+body .lp-main .lp-product .lp-container .lp-product-image {
+  position: absolute;
+}
 
 * {
   margin: 0;
