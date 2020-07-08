@@ -163,19 +163,28 @@ body {
                 }
             }
         }
-        .lp-product {
+        .lp-section {
             display: flex;
             flex-flow: row wrap;
             position: relative;
             z-index: 10;
-            .lp-container {
-                display: flex;
-                flex: 1 0;
-                justify-content: center;
-                align-items: center;
-                .lp-product-image {
-                    position: absolute;
+            &.lp-product {
+                .lp-container {
+                    display: flex;
+                    flex: 1 0;
+                    justify-content: center;
+                    align-items: center;
+                    .lp-product-image {
+                        position: absolute;
+                        height: 450px;
+                        width: 900px;
+                        object-fit: cover;
+                    }
                 }
+            }
+            &.lp-features {
+                margin: 17.5rem 0 0;
+                justify-content: center;
             }
         }
     }

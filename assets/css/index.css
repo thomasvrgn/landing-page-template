@@ -185,20 +185,27 @@ body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp
 body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp-button:hover {
   background-color: #56305b;
 }
-body .lp-main .lp-product {
+body .lp-main .lp-section {
   display: flex;
   flex-flow: row wrap;
   position: relative;
   z-index: 10;
 }
-body .lp-main .lp-product .lp-container {
+body .lp-main .lp-section.lp-product .lp-container {
   display: flex;
   flex: 1 0;
   justify-content: center;
   align-items: center;
 }
-body .lp-main .lp-product .lp-container .lp-product-image {
+body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
   position: absolute;
+  height: 450px;
+  width: 900px;
+  object-fit: cover;
+}
+body .lp-main .lp-section.lp-features {
+  margin: 17.5rem 0 0;
+  justify-content: center;
 }
 
 * {
