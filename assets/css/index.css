@@ -182,14 +182,20 @@ body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp
   font-weight: 300;
   padding: 1rem 0;
   margin: 0 1rem;
-  background-color: #633569;
+  background-color: #4b2950;
   color: white;
   text-decoration: none;
   transition: background-color 0.1s ease;
   flex-basis: calc(50% - 2rem);
 }
+@media (max-width: 640px) {
+  body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp-button {
+    flex-basis: 100%;
+    margin: 1rem 0;
+  }
+}
 body .lp-main .lp-header .lp-introduction .lp-container .lp-text .lp-buttons .lp-button:hover {
-  background-color: #56305b;
+  background-color: #381f3b;
 }
 body .lp-main .lp-section {
   display: flex;
