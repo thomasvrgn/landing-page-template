@@ -202,6 +202,12 @@ body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
   height: 450px;
   width: 900px;
   object-fit: cover;
+  background-position: center center;
+}
+@media (max-width: 1400px) {
+  body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
+    width: 75%;
+  }
 }
 body .lp-main .lp-section.lp-features {
   margin: 17.5rem 0 0;

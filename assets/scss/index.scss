@@ -179,6 +179,10 @@ body {
                         height: 450px;
                         width: 900px;
                         object-fit: cover;
+                        background-position: center center;
+                        @media (max-width: 1400px) {
+                            width: 75%;
+                        }
                     }
                 }
             }
