@@ -1,1 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body .lp-main .lp-header {
+  background-image: linear-gradient(to right top, #8e4296, #7f3e87, #713978, #633569, #56305b);
+  position: relative;
+}
+body .lp-main .lp-header .lp-navbar {
+  position: relative;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container {
+  padding: 1rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 50%;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div {
+  display: flex;
+  flex: 1 0;
+  align-items: center;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start {
+  flex-basis: 25%;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start .lp-navbar-brand {
+  color: white;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end {
+  flex-basis: 75%;
+  justify-content: flex-end;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end .lp-navbar-menu {
+  display: flex;
+  flex-flow: row wrap;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end .lp-navbar-menu .lp-navbar-item {
+  display: flex;
+  flex: 1 0;
+  margin: 0 0.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end .lp-navbar-menu .lp-navbar-item:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-end .lp-navbar-menu .lp-navbar-item .lp-navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+}
