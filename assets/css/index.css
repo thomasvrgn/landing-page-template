@@ -216,6 +216,7 @@ body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
   width: 900px;
   object-fit: cover;
   background-position: center center;
+  border-radius: 15px;
 }
 @media (max-width: 1400px) {
   body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
