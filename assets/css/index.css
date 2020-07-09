@@ -58,8 +58,9 @@ body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start {
 @media (max-width: 768px) {
   body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start span {
     display: flex;
-    flex: 1 0 calc(100% / 2);
+    flex: 1 0 calc(100% / 3);
     align-items: center;
+    margin: 0 1rem;
   }
 }
 body .lp-main .lp-header .lp-navbar .lp-navbar-container div.lp-navbar-start span.lp-navbar-brand {

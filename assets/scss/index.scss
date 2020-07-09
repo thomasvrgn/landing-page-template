@@ -43,8 +43,9 @@ body {
                             span {
                                 @media (max-width: 768px) {
                                     display: flex;
-                                    flex: 1 0 calc(100% / 2);
+                                    flex: 1 0 calc(100% / 3);
                                     align-items: center;
+                                    margin: 0 1rem;
                                 }
                                 &.lp-navbar-brand {
                                     color: white;
