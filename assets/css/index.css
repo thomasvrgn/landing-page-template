@@ -203,6 +203,7 @@ body .lp-main .lp-section {
   flex-flow: row wrap;
   position: relative;
   z-index: 10;
+  width: 100%;
 }
 body .lp-main .lp-section.lp-product .lp-container {
   display: flex;
@@ -231,6 +232,35 @@ body .lp-main .lp-section.lp-product .lp-container .lp-product-image {
 body .lp-main .lp-section.lp-features {
   margin: 17.5rem 0 0;
   justify-content: center;
+}
+body .lp-main .lp-section.lp-features .lp-features-container {
+  width: 100%;
+  margin: 0 auto;
+}
+body .lp-main .lp-section.lp-features .lp-features-container .lp-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+}
+body .lp-main .lp-section.lp-features .lp-features-container .lp-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+@media (max-width: 1425px) {
+  body .lp-main .lp-section.lp-features .lp-features-container .lp-container {
+    width: 65%;
+  }
+}
+body .lp-main .lp-section.lp-features .lp-features-container .lp-container .lp-item {
+  display: flex;
+  flex: 0 0 210px;
+  height: 210px;
+  background-color: red;
+  margin: 1rem;
 }
 
 * {

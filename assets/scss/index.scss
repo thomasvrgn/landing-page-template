@@ -177,6 +177,7 @@ body {
             flex-flow: row wrap;
             position: relative;
             z-index: 10;
+            width: 100%;
             &.lp-product {
                 .lp-container {
                     display: flex;
@@ -202,6 +203,33 @@ body {
             &.lp-features {
                 margin: 17.5rem 0 0;
                 justify-content: center;
+                .lp-features-container {
+                    width: 100%;
+                    margin: 0 auto;
+                    .lp-title {
+                        font-size: 2.5rem;
+                        text-transform: uppercase;
+                        color: #333333;
+                        text-align: center;
+                    }
+                    .lp-container {
+                        width: 50%;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: center;
+                        @media (max-width: 1425px) {
+                            width: 65%;
+                        }
+                        .lp-item {
+                            display: flex;
+                            flex: 0 0 210px;
+                            height: 210px;
+                            background-color: red;
+                            margin: 1rem;
+                        }
+                    }
+                }
             }
         }
     }
