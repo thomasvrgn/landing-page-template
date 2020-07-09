@@ -288,6 +288,37 @@ body .lp-main .lp-section.lp-features .lp-features-container .lp-container .lp-i
 body .lp-main .lp-section.lp-features .lp-features-container .lp-container .lp-item .lp-item-container .lp-item-body .lp-item-paragraph {
   opacity: 0.8;
 }
+body .lp-main .lp-section.lp-gallery {
+  position: relative;
+  width: 100%;
+}
+body .lp-main .lp-section.lp-gallery .lp-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px 300px;
+  gap: 2rem;
+  grid-template-areas: "image1 image1 image1 image2 image2" "image1 image1 image1 image2 image2" "image3 image3 image4 image4 image4" "image3 image3 image4 image4 image4";
+  width: 75%;
+  margin: 0 auto;
+}
+body .lp-main .lp-section.lp-gallery .lp-container .lp-item.lp-image-one {
+  grid-area: image1;
+}
+body .lp-main .lp-section.lp-gallery .lp-container .lp-item.lp-image-two {
+  grid-area: image2;
+}
+body .lp-main .lp-section.lp-gallery .lp-container .lp-item.lp-image-three {
+  grid-area: image3;
+}
+body .lp-main .lp-section.lp-gallery .lp-container .lp-item.lp-image-four {
+  grid-area: image4;
+}
+body .lp-main .lp-section.lp-gallery .lp-container .lp-item .lp-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
 body .lp-main .lp-wrapper {
   position: relative;
   height: 15rem;

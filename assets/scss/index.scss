@@ -257,6 +257,39 @@ body {
                     }
                 }
             }
+            &.lp-gallery {
+                position: relative;
+                width: 100%;
+                .lp-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 300px 300px 300px 300px;
+                    gap: 2rem;
+                    grid-template-areas: "image1 image1 image1 image2 image2" "image1 image1 image1 image2 image2" "image3 image3 image4 image4 image4" "image3 image3 image4 image4 image4";
+                    width: 75%;
+                    margin: 0 auto;
+                    .lp-item {
+                        &.lp-image-one {
+                            grid-area: image1;
+                        }
+                        &.lp-image-two {
+                            grid-area: image2;
+                        }
+                        &.lp-image-three {
+                            grid-area: image3;
+                        }
+                        &.lp-image-four {
+                            grid-area: image4;
+                        }
+                        .lp-image {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 15px;
+                        }
+                    }
+                }
+            }
         }
         .lp-wrapper {
             position: relative;
