@@ -203,6 +203,9 @@ body {
             &.lp-features {
                 margin: 17.5rem 0 0;
                 justify-content: center;
+                @media (max-width: 640px) {
+                    margin: 12.5rem 0 0;
+                }
                 .lp-features-container {
                     width: 100%;
                     margin: 0 auto;
@@ -211,6 +214,7 @@ body {
                         text-transform: uppercase;
                         color: #333333;
                         text-align: center;
+                        margin: 0 0 2rem;
                     }
                     .lp-container {
                         width: 50%;

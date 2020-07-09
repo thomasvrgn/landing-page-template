@@ -233,6 +233,11 @@ body .lp-main .lp-section.lp-features {
   margin: 17.5rem 0 0;
   justify-content: center;
 }
+@media (max-width: 640px) {
+  body .lp-main .lp-section.lp-features {
+    margin: 12.5rem 0 0;
+  }
+}
 body .lp-main .lp-section.lp-features .lp-features-container {
   width: 100%;
   margin: 0 auto;
@@ -242,6 +247,7 @@ body .lp-main .lp-section.lp-features .lp-features-container .lp-title {
   text-transform: uppercase;
   color: #333333;
   text-align: center;
+  margin: 0 0 2rem;
 }
 body .lp-main .lp-section.lp-features .lp-features-container .lp-container {
   width: 50%;
